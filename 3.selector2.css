@@ -1,0 +1,69 @@
+/* 가상클래스 선택자 (Pseudo class selector) */
+
+a:link { font-size: 2em; color: black; } /* 링크 */
+
+a:visited { color: red; } /* 방문한 링크 */
+
+a:hover { color: blue; } /* 마우스 올린 링크 */
+
+a:active { color: yellow; } /* 이동 중 링크 */
+
+input[type="text"]:focus {  /* 포커스 받은 요소 */
+    background-color: lightgray; 
+}
+
+input[type="radio"]:checked { /* 체크된 요소 */
+    background-color: lightgray;
+}
+
+input[type="text"]:enabled { /* enabled인 요소 */
+    border: 3px solid orange;
+}
+
+input[type="text"]:disabled { /* disabled인 요소 */
+    border: 3px solid blue;
+}
+ul > li:first-child { /* 자식 중 첫번째 */
+    font-size: 2em;
+}
+ul > li:last-child { /* 자식 중 마지막 */
+    font-size: 3em;
+}
+ul > li:nth-child(2) { /* 자식 중 2번째 */
+    font-size: 5em;
+}
+ul > li:nth-last-child(2) { /* 자식 중 뒤에서 2번째 */
+    color: blue;
+}
+ul > li:first-of-type { /* li 타입 중 첫번째 */
+    color: red;
+}
+ul > li:last-of-type { /* li 타입 중 마지막 */
+    color: yellow;
+}
+ul > li:nth-of-type(1) { /* li 타입 중 첫번째 */
+    border: 1px solid red;
+}
+ul > li:nth-last-of-type(1) { /* li 타입 중 뒤에서 첫번째 */
+    border: 1px solid yellow;
+}
+div:not(input) { /* div 자손 중 input 아닌것 */
+    font-style: italic;
+}
+p::first-letter { /* 첫번째 문자 */
+    font-size: 2em;
+    color: blue;
+}
+p::first-line { /* 첫번째 라인 */
+    text-decoration: underline;
+}
+p::before { /* 컨텐츠 앞에 추가 */
+    content: '[시작]';
+}
+p::after { /* 컨텐츠 뒤에 추가 */
+    content: '[끝]';
+}
+p::selection { /* 마우스로 드래그된 것 */
+    color: cyan;
+}
+

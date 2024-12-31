@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS를 HTML에 포함</title>
+    <link rel="stylesheet" href="meyer.css">
+    <link rel="stylesheet" href="1.css">
+    <style>
+        p {
+            border: 3px dashed red;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        inline style(비추) : 요소내에 style속성을 정의 => 요소에만 스타일이 적용
+        internal style(비추) : HTML파일의 head내에 <style> 엘리먼트를 정의 => 해당 HTML파일에만 스타일이 적용
+        external style(강추) : 외부에 CSS파일을 생성해서 head내에 link를 정의 => 모듈화, 일관성, 유지보수
+    -->
+    <p style="font-size: 40px; color: blue;">문장입니다!</p>
+</body>
+</html>
