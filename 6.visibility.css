@@ -1,0 +1,20 @@
+p, li {
+    background-color: orange;
+    font-size: 2em;
+}
+#p1 {
+   display: block; /* 영역 있음, 화면 보임 */
+   visibility: visible; /* 영역 있음, 화면 보임 */
+   opacity: 0.5;
+}
+#p2 {
+    display: none; /* 영역 없음, 화면 안보임 */
+    visibility: hidden; /* 영역 있음, 화면 안보임 */
+}
+#p3 {
+
+}
+ul li {
+    /* inline으로 표시, 영역 있음 */
+    display: inline-block;
+}

@@ -1,0 +1,29 @@
+/* 옆으로 배치, 영역도 가지도록 */
+* { margin: 0; padding:0; }
+
+p {
+    display: inline-block;
+    border: 1px solid blue;
+    margin: 20px;
+    padding: 20px;
+}
+#p1 {
+    background-color: yellow;
+    width: 200px; /* 컨텐츠 넓이 */
+    height: 100px; /* 컨텐츠 높이 */
+}
+#p2 {
+    background-color: blue;
+    border-width: 10px;
+    border-color:green;
+    border-style: dashed;
+    border-radius: 10px;
+}
+#p3 {
+    background-color: red;
+    border-top: 50px solid orange;
+    border-right: 50px solid orange;
+    border-bottom: 50px solid orange;
+    border-left: 50px solid orange;
+    border-radius: 0 25px 25px 0;
+}

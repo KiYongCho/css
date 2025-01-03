@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div#outer1, div#outer2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+div.inner {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: orange;
+}
+div#outer1 > #inner1 {
+    position:absolute;
+}
+div#outer1 > #inner2 {
+    position:absolute;
+    top: 50px;
+    left: 50px;
+}
+div#outer1 > #inner3 {
+    position:absolute;
+    top: 100px;
+    left: 100px;
+}
+div#outer2 > #inner1 {
+    position:absolute;
+}
+div#outer2 > #inner2 {
+    position:absolute;
+    left: 100px;
+}
+div#outer2 > #inner3 {
+    position:absolute;
+    top: 100px;
+}
+div#outer2 > #inner4 {
+    position:absolute;
+    top: 100px;
+    left: 100px;
+}
+div#outer2 > #inner5 {
+    position:absolute;
+    top: 50px;
+    left: 50px;
+}

@@ -1,0 +1,18 @@
+body {
+    background-image: url('assets/kje.jpg');
+    /* background-repeat: repeat; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-attachment: fixed;
+}
+div {
+    background-color: yellow;
+    font-size: 100px;
+    height: 5000px;
+}
+p {
+    background-image: url('assets/kje.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+}

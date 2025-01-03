@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#p1 {
+    font-size: 32px;
+    font-family: '돋움체', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    /* line-height: 50%; */
+    line-height: 2em;
+    letter-spacing: 2em;
+    text-align: left;
+}
+#p2 {
+    font-size: 2em;
+    font-family: 'Malgun gothic';
+    font-style: oblique;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    text-align: center;
+}
+#p3 {
+    font-size: 200%;
+    font-family: '궁서체';
+    font-weight: bolder;
+    text-align: right;
+}
+#p4 {
+    background-color: yellow;
+    height: 200px;
+    font-size: 50px;
+    line-height: 200px;
+}
+#p5 > a {
+    text-decoration: none;;
+}
+#p6, #p7 {
+    width: 300px;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+#p6 {
+    text-overflow: clip;
+    overflow: hidden;
+}
+#p7 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

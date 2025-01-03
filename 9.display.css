@@ -1,0 +1,46 @@
+/*
+    position속성 값
+    -----------------------------------------------------------------------
+    static : 기본값, 위에서 아래 왼쪽에서 오른쪽으로 위치
+    relative : static인데 top, right, bottom, left 사용 가능
+    absolute : 가장 가까운 static이 아닌 부모를 기준으로 top, right, bottom, left 사용 가능
+    fixed : 화면에서의 위치에 고정되어 스크롤 영향을 안 받음
+    z-index : 값이 클수록 화면의 위쪽 레이어
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+div#outer {
+    width: 600px;
+    height: 600px;
+    background-color: #ddd;
+    position: relative;
+    left: 200px;
+    top: 200px;
+}
+div.inner {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+#inner1 {
+    background-color: blue;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+}
+#inner2 {
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+}
+#inner3 {
+    background-color: yellow;
+    position: fixed;
+}

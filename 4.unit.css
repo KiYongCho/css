@@ -1,0 +1,14 @@
+/* 글자 크기 단위 */
+body { } /* 16px */
+div { font-size: 20px; }
+#p1 { font-size: 30px; }
+#p2 { font-size: 2em; } /* 40px */
+#p3 { font-size: 150%; } /* 30px */
+#p4 { font-size: 2rem; } /* 32px */
+
+/* 색상 단위 */
+#p1 { background-color: #ffcc00; }
+#p2 { background-color: rgb(100, 100, 100) }
+#p3 { background-color: rgba(50,50,50,0.2)}
+#p4 { background-color: hsl(0, 100%, 25%) }
+
