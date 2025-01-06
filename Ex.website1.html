@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>나의웹사이트</title>
     <script defer src="prefixfree.js"></script>
-    <style>
-        @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-        * { font-family: 'Nanum Gothic'; }
-    </style>
+    <link rel="stylesheet" href="meyer.css">
+    <link rel="stylesheet" href="Ex.website1.css">
 </head>
 <body>
     <div id="container">
         <header>
             <h1>:: MY WEBSITE ::</h1>
-            <a href="#">로그인</a>
-            <a href="#">회원가입</a>
-            <a href="#"><img src=""></a>
+            <p id="memberlink">
+                <a href="#">로그인</a>&nbsp;
+                <a href="#">회원가입</a>
+            </p>
+            <p id="mainbk">
+                <a href="#"><img src="bk.png"></a>
+            </p>
         </header>
         <nav>
-            <ul>
+            <ul id="mainmenu">
                 <li>메뉴1</li>
                 <li>메뉴2</li>
                 <li>메뉴3</li>
@@ -28,7 +30,7 @@
         </nav>
         <section>
             <nav>
-                <ul>
+                <ul id="submenu">
                     <li>메뉴1-1</li>
                     <li>메뉴1-2</li>
                     <li>메뉴1-3</li>
@@ -44,7 +46,7 @@
             <p>Copyright 2025 여러분아이디 All right reserved</p>
         </footer>
         <div id="banner">
-            배너
+            <p>배너</p>
         </div>
     </div>    
 </body>

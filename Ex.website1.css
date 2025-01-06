@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+* { 
+    font-family: 'Nanum Gothic';
+}
+
+#container {
+    width: 1024px;
+    margin: 0 auto;
+    border: 1px solid #666;
+}
+
+header {
+    height: 250px;
+}
+
+header h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    color: white;
+}
+
+header p#memberlink {
+    text-align: right;
+    float: right;
+    margin: 10px 0;
+    padding-right: 5px;
+}
+
+section {
+    clear: left;
+    border: 1px solid #999;
+}
+
+section > nav {
+    width: 190px;
+    line-height: 3em;
+    float: left;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+section > nav > ul > li {
+    padding: 0 0 0 15px;
+    font-weight: bold;
+}
+
+section > nav > ul > li:hover {
+    background-color: #999;
+    color: #333;
+}
+
+section > article {
+    height: 400px;
+    padding: 20px;
+    float: left;
+}
+
+footer > p {
+    text-align: center;
+    clear: left;
+    background-color: #666;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#mainmenu {
+    width: 640px;
+    margin: 80px auto 0  auto;
+}
+
+#mainmenu li {
+    width: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #333;
+    color: white;
+}
+
+#mainmenu li:hover {
+    background-color: #666; 
+    color: #fff;    
+}
+
+section > nav > ul > li:hover {
+    background-color: #666;
+    color: #fff;
+}
+
+#banner {
+    width: 120px;
+    height: 200px;
+    position: fixed;
+    top: 115px;
+    left: 1490px;
+    border: 1px solid #999;
+    text-align: center;
+}
+#banner > p {
+    height: 160px;
+    line-height: 160px;
+}
